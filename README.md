@@ -109,4 +109,24 @@ Understand and predict which customer deetails influence personal loan acceptanc
 
 ---
 
-## How to Use the Steamlit App
+## How to Use the Streamlit App
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/KaiesoKB/Loan-Acceptance-Project.git
+cd Loan-Acceptance-Project/Loan_Acceptance_Project
+```
+
+2. **Install dependencies**
+```bash
+pip install -r requirements.txt
+```
+
+3. **Run the app**
+```bash
+streamlit run Loan_Acceptance_Project/src/app/Loan_Acceptance_Predictor_App.py
+```
+
+4. **Predict loan acceptance**
+   - Enter customer details (age, income, mortgage, credit card spending, etc.)
+   - App shows predicted outcome and probability
