@@ -108,8 +108,8 @@ Understand and predict which customer details influence personal loan acceptance
 - **Features used:** age, experience, income, cc_avg, mortgage, securities_account,	cd_account,	online_banking,	credit_card, education_Professional,	education_Undergrad,	family_Size_2,	family_Size_3,	family_Size_4.
 - **Scaler:** StandardScaler applied to numeric features.
 - **Saved Model & Scaler:**
-   - `Loan-Acceptance-Project/Loan_Acceptance_Project/src/models/Personal_loan_acceptance_Prediction_Model.pkl`
-   - `Loan-Acceptance-Project/Loan_Acceptance_Project/src/models/Model_scaler.pkl`
+   - `Loan-Acceptance-Project/Loan_Acceptance_Project/app/Personal_loan_acceptance_Prediction_Model.pkl`
+   - `Loan-Acceptance-Project/Loan_Acceptance_Project/app/Model_scaler.pkl`
 
 ---
 
@@ -128,7 +128,7 @@ pip install -r requirements.txt
 
 3. **Run the app**
 ```bash
-streamlit run Loan_Acceptance_Project/src/app/Loan_Acceptance_Predictor_App.py
+streamlit run Loan_Acceptance_Project/app/Loan_Acceptance_Predictor_App.py
 ```
 
 4. **Predict loan acceptance**
