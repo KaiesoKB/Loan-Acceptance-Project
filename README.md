@@ -72,14 +72,16 @@ Understand and predict which customer deetails influence personal loan acceptanc
 - 5-fold cross-validation shows low variance:
   - Mean F1-score (Loan Accepted = 1): 0.888 ± 0.040
   - Mean ROC-AUC: 0.995 ± 0.003
-- Feature importance:
+
+**Feature importance:**
   - Income: 47%
   - Credit Card Average Spend: 19%
   - Education (Undergrad): 12%
   - Mortgage: 3%
   - cd account: 2%
   - Age: 2%
-- Confusion Matrix Highlights:
+
+**Confusion Matrix Highlights:**
   - True Negatives: 985
   - True Positives: 91
   - False Negatives: 5
@@ -105,7 +107,9 @@ Understand and predict which customer deetails influence personal loan acceptanc
 - **Final Chosen Mode;:** Random Forest (After Tuning)
 - **Features used:** age, experience, income, cc_avg, mortgage, securities_account,	cd_account,	online_banking,	credit_card, education_Professional,	education_Undergrad,	family_Size_2,	family_Size_3,	family_Size_4.
 - **Scaler:** StandardScaler applied to numeric features.
-- **Saved Model & Scaler:** `Loan-Acceptance-Project/Loan_Acceptance_Project/src/models/Personal_loan_acceptance_Prediction_Model.pkl` and `Loan-Acceptance-Project/Loan_Acceptance_Project/src/models/Model_scaler.pkl`
+- **Saved Model & Scaler:**
+   - `Loan-Acceptance-Project/Loan_Acceptance_Project/src/models/Personal_loan_acceptance_Prediction_Model.pkl`
+   - `Loan-Acceptance-Project/Loan_Acceptance_Project/src/models/Model_scaler.pkl`
 
 ---
 
