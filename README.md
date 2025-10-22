@@ -40,8 +40,8 @@ Understand and predict which customer deetails influence personal loan acceptanc
    - **Action**: Prioritize clients who can comfortably take additional credit.
   
 3. **Leverage Customer Profile & Product Ownership**
-  - Customers with 3 bank products and medium-size households (3-4) members show highest acceptance.
-  - **Action**: Bundle offers or cross-sell loans to these segments.
+   - Customers with 3 bank products and medium-size households (3-4) members show highest acceptance.
+   - **Action**: Bundle offers or cross-sell loans to these segments.
 
 4. **Education and Age as Secondary Segmentation Factors**
    - Higher education slightly improves acceptance; older, high-income customers show higher receptivity.
