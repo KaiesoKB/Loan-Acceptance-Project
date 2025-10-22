@@ -10,10 +10,10 @@ Understand and predict which customer deetails influence personal loan acceptanc
 
 ## Business Questions
 
-### 1. Which customer segments are most likely to accept a person loan?
-### 2. How does housing exposure or mortgage ownership affect loan acceptance?
-### 3. How does average credit card spending and credit_utilization relate to loan acceptance?
-### 4. Are customers with more bank products amore likely to accept a personal loan?
-### 5. How does income relative to financial obligations affect willingness to take a personal loan?
-### 6. Which features most strongly differentiate loan accepters vs non-accepters?
+1. Which customer segments are most likely to accept a person loan?
+2. How does housing exposure or mortgage ownership affect loan acceptance?
+3. How does average credit card spending and credit_utilization relate to loan acceptance?
+4. Are customers with more bank products amore likely to accept a personal loan?
+5. How does income relative to financial obligations affect willingness to take a personal loan?
+6. Which features most strongly differentiate loan accepters vs non-accepters?
 
