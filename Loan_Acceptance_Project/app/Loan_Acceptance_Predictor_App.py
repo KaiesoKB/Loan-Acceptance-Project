@@ -42,14 +42,10 @@ input_features_df = pd.DataFrame([[age, experience, income, cc_avg, mortgage, se
 numeric_cols = ['age', 'experience', 'income', 'cc_avg', 'mortgage']
 input_features_df[numeric_cols] = scaler.transform(input_features_df[numeric_cols])
 
-# Test
-st.write(input_features_df)
-st.write("Scaled inputs:", input_features_df[numeric_cols])
 
 if st.button("Predict Loan Acceptance"):
     pred_class = model.predict(input_features_df)[0]
     pred_prob = model.predict_proba(input_features_df)[0][1]
-    st.write("Predicted probability:", pred_prob)
     
     st.success(f"Prediction of Accepting Personal Loan Offer: {'☑️Yes' if pred_class == 1 else '✖️No'}")
     st.info(f"Probability of Accepting Personal Loan Offer: {pred_prob:.4f}")
