@@ -1,4 +1,4 @@
-# Understanding and Predicting Customer Loan Acceptance Behavior for a Retail Bank
+# Customer Loan Acceptance Analysis & Prediction
 
 ## Goal
 Understand and predict which customer details influence personal loan acceptance, enabling targeted marketing and improved loan uptake 
