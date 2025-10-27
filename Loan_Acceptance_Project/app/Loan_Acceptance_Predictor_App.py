@@ -6,7 +6,7 @@ import pickle
 with open("Loan_Acceptance_Project/app/Model_scaler.pkl", "rb") as f:
     scaler = pickle.load(f)
 
-with open("Loan_Acceptance_Project/app/Personal_loan_acceptance_Prediction_Model.pk", "rb") as f:
+with open("Loan_Acceptance_Project/app/Personal_loan_acceptance_Prediction_Model.pkl", "rb") as f:
     model = pickle.load(f)
 
 st.title("Personal Loan Acceptance Predictor")
@@ -49,5 +49,6 @@ if st.button("Predict Loan Acceptance"):
     
     st.success(f"Prediction of Accepting Personal Loan Offer: {'☑️Yes' if pred_class == 1 else '✖️No'}")
     st.info(f"Probability of Accepting Personal Loan Offer: {pred_prob:.4f}")
+
 
 
